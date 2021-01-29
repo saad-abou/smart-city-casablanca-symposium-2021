@@ -20,12 +20,23 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
   </head>
-  <body>
+  <body  style="position: relative;" data-spy="scroll" data-target="#navbar-app">
    
     <div id="app"></div>
     <!-- built files will be auto injected -->
   </body>
    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+   <script> 
+        $(document).ready(function () { 
+  
+            $('ul.navbar-nav > li') 
+                    .click(function (e) { 
+                $('ul.navbar-nav > li') 
+                    .removeClass('active'); 
+                $(this).addClass('active'); 
+            }); 
+        }); 
+    </script> 
   <script>
     AOS.init();
   </script>

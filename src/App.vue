@@ -1,6 +1,6 @@
 <template>
 <v-app>
- <nav id="navbar-app" class="navbar navbar-light fixed-top navbar-expand-md scrolling-navbar appnav" :class="{change_color: scrollPosition > 50}">
+ <nav id="navbar-app" class="nav navbar-light fixed-top navbar-expand-md scrolling-navbar appnav" :class="{change_color: scrollPosition > 50}">
     <div class="container">
 
       <!-- Brand -->
@@ -18,29 +18,29 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
         <!-- Right -->
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a href="#accueil" class="link " >
+        <ul class="nav ml-auto nav-pills nav-stacked">
+          <li class="nav-item active">
+            <a href="#accueil" class="nav-link" >
               <b>ACCUEIL</b>
             </a>
           </li>
           <li class="nav-item" >
-            <a href="#propos" class="link" >
+            <a href="#propos" class="nav-link" >
               <b>A PROPOS</b>
             </a>
           </li>
           <li class="nav-item">
-            <a href="#agenda" class="link" >
+            <a href="#agenda" class="nav-link" >
               <b>AGENDA</b>
             </a>
           </li>
           <li class="nav-item">
-            <a href="#inscription" class="link" >
+            <a href="#inscription" class="nav-link" >
              <b>INSCRIPTION</b>
             </a>
           </li>
           <li class="nav-item">
-            <a href="#contact" class="link" >
+            <a href="#contact" class="nav-link" >
               <b>CONTACT</b>
             </a>
           </li>
@@ -111,10 +111,10 @@ html{
   background-size:contain;
   background-position:center;
 }
-.link b{
+.nav-link b{
     color: white;
 }
-.nav-item a:hover{
+.nav .nav-item a:hover{
     color: white;
     background-color:#2995cf;
     text-decoration:none
@@ -127,10 +127,10 @@ html{
 .logo{
   max-width:150px
 }
-.view,body,html{height:100%}.navbar{background-color:rgba(0,0,0,.2)}.page-footer,.top-nav-collapse{background-color:rgba(0,0,0,.2)}@media only screen and (max-width:768px){.navbar{background-color:rgba(0,0,0,.2)}}
+.view,body,html{height:100%}.nav{background-color:rgba(0,0,0,0.1)}.page-footer,.top-nav-collapse{background-color:rgba(0,0,0,.2)}@media only screen and (max-width:768px){.nav{background-color:rgba(0,0,0,.2)}}
 
 @media (min-width:900px) {
-.navbar-dark .nav-item > .link.active  {
+.navbar-dark .nav-item > .nav-link.active  {
     color: white;
     background-color:#141413
 }}
@@ -157,16 +157,20 @@ h1{
   .logonav{
     width:100px; 
   }
-  #navbarSupportedContent{
+ /* #navbarSupportedContent{
     background-color:black
-  }
+  }*/
 
 }
  .change_color {
        background-color:rgba(0,0,0,.8)
    }
-.navbar-light .navbar-nav .link.active {
+.navbar-light .nav{
   color: rgba(0, 0, 0, 0.9);
 }   
 
+.nav>.active>a { 
+            color: white;
+            background-color:#2995cf
+}
 </style>
