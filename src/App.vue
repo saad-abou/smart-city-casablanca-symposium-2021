@@ -5,7 +5,7 @@
 
       <!-- Brand -->
       <a class="navbar-brand" href="https://mdbootstrap.com/material-design-for-bootstrap/" target="_blank">
-        <img  class="img-responsive logonav" src="novartis-logo.png" width="130" >
+        <img  class="img-responsive logonav" src="merck.png" width="130" >
       </a>
 
       <!-- Collapse -->
@@ -18,7 +18,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
         <!-- Right -->
-        <ul class="nav ml-auto nav-pills nav-stacked">
+        <ul class="nav ml-auto  nav-stacked">
           <li class="nav-item active">
             <a href="#accueil" class="nav-link" >
               <b>ACCUEIL</b>
@@ -52,21 +52,27 @@
   </nav>
   <div  data-spy="scroll" data-target="#navbar-app" data-offset="0">
     <div id="accueil">
-    <accueil data-aos="fade-up" />
+    <accueil  />
     </div>
     <div id="propos">
-    <propos data-aos="fade-up" class="mt-10"/>
+    <propos class="mt-5"/>
     </div>
     <div id="agenda">
-    <agenda  data-aos="fade-up" class="mt-10"/>
+    <agenda   class="mt-5"/>
     </div>
     <div id="inscription">
-    <inscription  data-aos="fade-up" class="mt-10"/>
+    <inscription   class="mt-5"/>
     </div>
     <div id="contact">
-    <contact  data-aos="fade-up" class="mt-10"/>
+    <contact  class="mt-5"/>
     </div>
   </div>
+    <v-row class="footer d-none d-lg-block " >
+    <v-col align="center" class="mt-5">
+    <p style="color:black">© Copyright 2021 <b style="color:green">ASCREA</b></p>
+    <img  class="img-responsive ascreaLogo" src="unnamed.png" width="50" >
+    </v-col>
+    </v-row>
 </v-app>
 </template>
 
@@ -116,7 +122,7 @@ html{
 }
 .nav .nav-item a:hover{
     color: white;
-    background-color:#2995cf;
+    background-color:#e8103b;
     text-decoration:none
 }
 .nav-item{
@@ -127,7 +133,7 @@ html{
 .logo{
   max-width:150px
 }
-.view,body,html{height:100%}.nav{background-color:rgba(0,0,0,0.1)}.page-footer,.top-nav-collapse{background-color:rgba(0,0,0,.2)}@media only screen and (max-width:768px){.nav{background-color:rgba(0,0,0,.2)}}
+.view,body,html{height:100%}.nav{background-color:rgba(0,0,0,0.3)}.page-footer,.top-nav-collapse{background-color:rgba(0,0,0,.2)}@media only screen and (max-width:768px){.nav{background-color:rgba(0,0,0,.2)}}
 
 @media (min-width:900px) {
 .navbar-dark .nav-item > .nav-link.active  {
@@ -171,6 +177,12 @@ h1{
 
 .nav>.active>a { 
             color: white;
-            background-color:#2995cf
+            background-color:#e8103b
+}
+
+.footer{
+    color:white;
+    margin-top:100px;
+    height:150px
 }
 </style>

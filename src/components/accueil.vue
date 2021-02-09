@@ -1,15 +1,15 @@
 <template>
   <div class="view" >
-        <v-img class="back"  src="..\assets\health.jpg" aspect-ratio="1.7" max-height="626">
+        <v-img class="back"  src="..\assets\affiche.jpg" aspect-ratio="1.7" max-height="626">
          <v-row align="center">
           <v-col class="digit" align="center">
-          <v-card class="agenda" color="rgb(0, 0, 189, 0.4)">
-           <v-card class="tiemCard" color="blue darken-3">
-             <h2 class="datetime" >Samedi, Decembre 25, 2021</h2>
+          <v-card class="agenda" color="rgb(255, 0, 0, 0.4)">
+           <v-card class="tiemCard" color="red accent-3">
+             <h2 class="datetime" >Mercredi, Février 17, 2021</h2>
           </v-card>
           <template>
             <div>
-              <flip-countdown deadline="2021-12-25 00:00:00"></flip-countdown>
+              <flip-countdown deadline="2021-2-17 19:00:00"></flip-countdown>
             </div>
           </template>
           </v-card>
@@ -19,11 +19,9 @@
         <v-row>
         <v-col md="4">
         <v-icon class="mr-5" color="white" large>far fa-calendar-alt</v-icon>
-        <span style="color:blue">DATE</span><br><span style="color:white">06 juillet 2021</span>
+        <span style="color:red">DATE</span><br><span style="color:white">17 Fevrier 2021</span>
         </v-col>
-       <v-col  align="right" style="float: right;">
-        <img  class="img-responsive" src="..\assets\unnamed.png" width="50" >
-        </v-col>
+
         </v-row>
         </nav>   
         </v-img>   

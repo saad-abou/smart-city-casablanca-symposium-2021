@@ -8,13 +8,13 @@
     </v-row>
     <v-row class="mt-10">
     <v-col class="inscrireInfo" align="center">
-    <p><v-icon color="green" class="mr-1">fab fa-whatsapp</v-icon>Numéro WhatsApp  : <b style="color:green">+216 29 884 259</b></p>
-    <p><v-icon color="green" class="mr-1">fas fa-paper-plane</v-icon>Adresse e-mail : <b style="color:green">pm5@millesima-events.com</b></p>
+    <p><v-icon color="green" class="mr-1">fab fa-whatsapp</v-icon>Numéro\WhatsApp  : <br>khalil sibari <b style="color:green">+216 602 820 075</b></p>
+    <p><v-icon color="green" class="mr-1">fas fa-paper-plane</v-icon>Adresse e-mail : <br><b style="color:green">khalil.sibari@ascrea.ma</b></p>
     </v-col>
     </v-row>
-    <v-row class="footer" >
+    <v-row class="footer d-lg-none d-xl-block d-md-block" >
     <v-col align="center" class="mt-5">
-    <p>© Copyright 2020 <b style="color:green">ASCREA</b></p>
+    <p style="color:black">© Copyright 2021 <b style="color:green">ASCREA</b></p>
     <img  class="img-responsive ascreaLogo" src="..\assets\unnamed.png" width="50" >
     </v-col>
     </v-row>
@@ -39,7 +39,6 @@ export default {
 .footer{
     color:white;
     margin-top:100px;
-    background-color:#212b91;
     height:150px
 }
 
