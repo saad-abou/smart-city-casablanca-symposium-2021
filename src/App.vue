@@ -4,8 +4,8 @@
     <div class="container">
 
       <!-- Brand -->
-      <a class="navbar-brand" href="https://mdbootstrap.com/material-design-for-bootstrap/" target="_blank">
-        <img  class="img-responsive logonav" src="merck.png" width="130" >
+      <a class="navbar-brand mb-2" href="https://www.roche.com/" target="_blank">
+        <img  class="img-responsive logonav" src="roche2.png" width="100" >
       </a>
 
       <!-- Collapse -->
@@ -122,7 +122,7 @@ html{
 }
 .nav .nav-item a:hover{
     color: white;
-    background-color:#e8103b;
+    background-color:#3F66A7;
     text-decoration:none
 }
 .nav-item{
@@ -133,7 +133,7 @@ html{
 .logo{
   max-width:150px
 }
-.view,body,html{height:100%}.nav{background-color:rgba(0,0,0,0.3)}.page-footer,.top-nav-collapse{background-color:rgba(0,0,0,.2)}@media only screen and (max-width:768px){.nav{background-color:rgba(0,0,0,.2)}}
+.view,body,html{height:100%}.nav{background-color:rgba(0,0,0,0.5)}.page-footer,.top-nav-collapse{background-color:rgba(0,0,0,.2)}@media only screen and (max-width:768px){.nav{background-color:rgba(0,0,0,.2)}}
 
 @media (min-width:900px) {
 .navbar-dark .nav-item > .nav-link.active  {
@@ -160,9 +160,7 @@ h1{
 
 /* Landscape phones and down */
 @media (max-width: 480px) {
-  .logonav{
-    width:100px; 
-  }
+  
  /* #navbarSupportedContent{
     background-color:black
   }*/
@@ -177,7 +175,7 @@ h1{
 
 .nav>.active>a { 
             color: white;
-            background-color:#e8103b
+            background-color:#3F66A7
 }
 
 .footer{

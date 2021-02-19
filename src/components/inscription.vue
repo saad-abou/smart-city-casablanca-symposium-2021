@@ -20,8 +20,8 @@
             max-width="600px"
             >
             <template v-slot:activator="{ on, attrs }">
-                <a v-bind="attrs" v-on="on" type="button" @click="clear" class="insriBtn btn btn-lg btn-success ">
-                <v-icon class="mr-1">fas fa-sign-in-alt</v-icon><b style="color:black">Inscrivez-Vous ici</b>
+                <a v-bind="attrs" v-on="on" type="button" @click="clear" class="insriBtn btn btn-lg  ">
+                <v-icon class="mr-1">fas fa-sign-in-alt</v-icon><b style="color:white">Inscrivez-Vous ici</b>
                 </a>
             </template>
             <v-card>
@@ -110,10 +110,10 @@
           Accès à la plateforme</h4></v-card-title> 
           <v-card-text style="font-size:1.1em" class="mt-2">
            Une fois inscrit(e), rappelez-vous que pour accéder à la session, veuillez :<br>
-           1.       Cliquer sur le lien suivant : <a href="https://rcmerck.ascrea.ma/stream">https://rcmerck.ascrea.ma/stream</a><br>
+           1.       Cliquer sur le lien suivant : <a href="https://whd2021.ascreacongres.ma/stream">https://whd2021.ascreacongres.ma/stream</a><br>
            2.       Renseigner votre Email<br>
            3.       Cliquer sur "S’identifier"<br>
-           <b>Note</b> : La plateforme ne sera accessible que le <b>17 Février 2021</b> à partir de <b>19H15</b>.
+           <b>Note</b> : La plateforme ne sera accessible que le <b>06 Mars 2021</b> à partir de <b>13H45</b>.
           </v-card-text> 
         </v-card>
     </v-col>    
@@ -390,9 +390,9 @@ export default {
          if(this.$refs.form.validate()){
                 this.email = this.email.toLowerCase()
                 this.dialog = false
-                /*this.axios({
+                this.axios({
                     method: 'post',
-                    url: '/',
+                    url: 'https://whd2021stream.ascreacongres.ma/api/inscrit',
                     data: {
                         email:this.email ,
                         name:this.nom+' '+this.prenom,
@@ -401,8 +401,7 @@ export default {
                     }
                     }).then(()=>{
                         this.confirmed = true
-                    });*/
-                    this.confirmed = true
+                    });
                 
         }
       },
@@ -438,4 +437,7 @@ export default {
 .welcome_text{
   font-size: 1.5em;
 }    
+.btn{
+    background-color: #F06292 !important;
+}
 </style>

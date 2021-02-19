@@ -8,22 +8,35 @@
     </v-row>
     <v-row>
     <v-col align="center">
-    <h4 class="mt-5 welcome_text">Cher Docteur,</h4>
+    <h4 class="mt-5 welcome_text">Chère/Cher Docteur,</h4>
     <v-row>
-      <v-col class="welcome_text" align="center">En partenariat avec <b style="color:red">l’Association des Cardoilogues de Marrakech</b>
-      </v-col>
-    </v-row> 
-    <v-row>
-      <v-col class="welcome_text"> 
-       les laboratoires
-      <b style="color:#5700d1">Merck</b>
-      ont l’immense plaisir de vous inviter aux 
+      <v-col class="welcome_text" align="center">Les Laboratoires <b style="color:#0066CC">Roche</b>,<br> 
+       en collaboration avec la <span style="color:#0066CC"><b>SMMR</b></span> (Société Marocaine de la Médecine de la Reproduction et de Médecine Foetale)<br>
+        et l'<span style="color:#0066CC"><b>AMBM</b></span> (Association Marocaine de Biologie Médicale),
       </v-col>
     </v-row> 
     <v-row color="blue">
-      <v-col class="welcome_text" align="center" style="color:#5700d1"><b>Rencontres de Cardiologie-Merck</b></v-col>
+      <v-col class="welcome_text" align="center">
+      ont le plaisir de vous inviter à l'évènement<br>
+      <b style="color:#0066CC">2021 WOMEN'S HEALTH DAY</b>
+      </v-col>
     </v-row> 
-    <v-row><v-col class="welcome_text" align="center">le mercredi <b style="color:#5700d1">17 Février 2021</b> à partir de <b style="color:#5700d1">19H30</b></v-col></v-row>
+    <v-row>
+    <v-col class="welcome_text" align="center">
+    qui aura lieu le samedi 06 mars 2021 à partir de 14h00.
+    </v-col>
+    </v-row>
+    <v-row>
+    <v-col class="welcome_text" align="center">
+    Le programme riche et innovant de cette rencontre a été conçu pour vous par un comité d'experts afin d'aborder les dernières avancées autour
+    de la Santé de la Femme.
+    </v-col>
+    </v-row>
+    <v-row>
+    <v-col class="welcome_text" align="center">
+    Nous comptons sur votre présence et vous souhaitons une excellente journée.
+    </v-col>
+    </v-row>
     </v-col>
     </v-row>
     <v-divider></v-divider>
@@ -41,7 +54,7 @@ export default {
     text-align: center;
 }
 .welcome_text{
-  font-size: 1.5em;
+
 }
 @media (min-width: 1200px) {
 

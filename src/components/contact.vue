@@ -8,8 +8,13 @@
     </v-row>
     <v-row class="mt-10">
     <v-col class="inscrireInfo" align="center">
-    <p><v-icon color="green" class="mr-1">fab fa-whatsapp</v-icon>Numéro\WhatsApp  : <br>khalil sibari <b style="color:green">+216 602 820 075</b></p>
-    <p><v-icon color="green" class="mr-1">fas fa-paper-plane</v-icon>Adresse e-mail : <br><b style="color:green">khalil.sibari@ascrea.ma</b></p>
+    <p>khalil Sibari<br><b style="color:green">+212 602 820 075</b><br>
+    <b style="color:green">khalil.sibari@ascrea.ma</b>
+    </p>
+    <p>
+    Sara Kenas<br><b style="color:green">+212 660 289 097</b><br>
+    <b style="color:green">sara.kenas@ascrea.ma</b>
+    </p>
     </v-col>
     </v-row>
     <v-row class="footer d-lg-none d-xl-block d-md-block" >
