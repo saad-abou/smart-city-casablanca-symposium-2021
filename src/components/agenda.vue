@@ -26,18 +26,6 @@
                         </v-col>
                     </v-row>
                     </v-card-title>
-                    <v-card-text class="white text--primary">
-                    <v-row >
-                    <v-col lg="6">
-                    <h5>Dr Abdellatif Loudghiri</h5>
-                    <v-img src="..\assets\wdghiri.jpg" width="150"></v-img>
-                    </v-col>
-                    <v-col lg="6">
-                    <h5>Pr Omar Sefroui</h5>
-                    <v-img src="..\assets\sefroui.png" width="200"></v-img>
-                    </v-col>
-                    </v-row>
-                    </v-card-text>
                 </v-card>
                 </v-timeline-item>
                 <v-timeline-item color="#3F66A7" icon="fas fa-microphone">
@@ -93,7 +81,7 @@
                     </v-col>
                     <v-col class="textBody">
                     <h4>Dr Hicham El Attar</h4>
-                    <b>Médecin pathologiste laboratoire privé
+                    <b>Anatomo-Cyto-Pathologiste, laboratoire privé
                     </b>
                     </v-col>
                     </v-row>
@@ -127,7 +115,7 @@
                     </v-col>
                     <v-col class="textBody">
                     <h4>Pr Moncef Benkhalifa </h4>
-                    <b>Professeur à l’Université de Picardie Jules Verne
+                    <b>Professeur de médecine de la reproduction, biologie du développement et de la reproduction à l'Université Picardie Jules Verne, Amiens.
                     </b>
                     </v-col>
                     </v-row>
@@ -196,7 +184,7 @@
                     </v-col>
                     <v-col class="textBody">
                     <h4>Dr Elodie Lefranc</h4>
-                    <b>Professeur à l’Université de Picardie Jules Verne
+                    <b>Médecin Biologiste de la Reproduction (CBH) au CHU Amiens Picardie, site Sud
                     </b>
                     </v-col>
                     </v-row>
@@ -231,7 +219,7 @@
                     <v-col class="textBody">
                     <h4>Dr Badre Eddine Lmimouni</h4>
                     <b>Docteur en Pharmacie, Spécialiste en Biologie Médicale,
-                     Chef de service de Parasitologie et mycologie médicale à l'Hôpital Militaire d'Instruction<br> Mohammed V.
+                     Chef de service de Parasitologie et mycologie médicale à l'Hôpital Militaire d'Instruction<br> Mohammed V
                     </b>
                     </v-col>
                     </v-row>
@@ -254,7 +242,7 @@
                     <v-card :class="`rounded-r-xl`" color="#B5537F">17:45</v-card>
                     </div>
                     <div class="col-lg-9 col-sm-12 col-md-12">
-                    pré-éclampsie: sFlt-1, PlGf,sFlt-1/PlGf ratio et diagnostic
+                    Pré-éclampsie: sFlt-1, PlGf,sFlt-1/PlGf ratio et diagnostic
                     </div>
                     </v-row>
                     </v-card-title>
@@ -265,7 +253,7 @@
                     </v-col>
                     <v-col class="textBody">
                     <h4>Dr Noureddine Louanjli </h4>
-                    <b>Médecin biologiste au laboratoire LABOMAC et membre de la SMMR
+                    <b>Médecin biologiste au sein d'un laboratoire privé et membre de la SMMR
                     </b>
                     </v-col>
                     </v-row>
@@ -290,7 +278,7 @@
     </v-row>
     <v-row class="mt-2">
     <v-col align="center">
-    <a href="roche.png" download="roche.png">
+    <a href="https://drive.google.com/file/d/108WEGg9Seqt9gJQbrwfTufe8iuTAKOHq/view" target="_blank">
     <div class="programme"><b>Consultez le programme officiel</b></div>
     </a>
     </v-col>

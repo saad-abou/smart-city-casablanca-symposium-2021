@@ -17,13 +17,13 @@
     </v-row> 
     <v-row color="blue">
       <v-col class="welcome_text" align="center">
-      ont le plaisir de vous inviter à l'évènement<br>
+      ont le plaisir de vous inviter à la première édition virtuelle <br>
       <b style="color:#0066CC">2021 WOMEN'S HEALTH DAY</b>
       </v-col>
     </v-row> 
     <v-row>
     <v-col class="welcome_text" align="center">
-    qui aura lieu le samedi 06 mars 2021 à partir de 14h00.
+    qui aura lieu le Samedi 06 Mars 2021 à partir de 14h00.
     </v-col>
     </v-row>
     <v-row>

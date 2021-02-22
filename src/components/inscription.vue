@@ -8,7 +8,10 @@
     </v-row>
     <v-row class="mt-10 mb-5">
     <v-col align="center">
-    <v-alert v-if="confirmed" text type="success">
+    <a href="https://womenshealthday.ascrea.ma/inscription.htm" type="button" class="insriBtn btn btn-lg" target="blank">
+        <v-icon class="mr-1" color="white">fas fa-sign-in-alt</v-icon><b style="color:white">Inscrivez-Vous ici</b>
+    </a>
+    <!--<v-alert v-if="confirmed" text type="success">
     Cher Docteur,<br>
     Vous êtes bien inscrit, veuillez vérifier votre boite Email pour le lien d’accès à la plateforme.
     </v-alert>
@@ -24,7 +27,38 @@
                 <v-icon class="mr-1">fas fa-sign-in-alt</v-icon><b style="color:white">Inscrivez-Vous ici</b>
                 </a>
             </template>
-            <v-card>
+            <v-card v-if="!this.type">
+                <v-card-title>
+                <span class="headline">Formulaire D'inscription</span>
+                </v-card-title>
+                <v-divider></v-divider>
+                <v-card-text>
+                <v-container>
+                    <v-row>
+                        <v-col align="center">
+                            <v-btn text color="primary" @click="selectType('prof')">
+                            Professionnels de la Santé
+                            </v-btn>
+                        </v-col>
+                        <v-col align="center">
+                            <v-btn text color="primary" @click="selectType('staff')">
+                            Staff Roche
+                            </v-btn>
+                        </v-col>
+                    </v-row>
+                </v-container>   
+                </v-card-text>
+                <v-card-actions>
+                <v-btn
+                    color="blue darken-1"
+                    text
+                    @click="ferme()"
+                >
+                    Fermer
+                </v-btn>
+                </v-card-actions>
+            </v-card>
+            <v-card v-else>
                 <v-card-title>
                 <span class="headline">Formulaire D'inscription</span>
                 </v-card-title>
@@ -83,7 +117,7 @@
                 <v-btn
                     color="blue darken-1"
                     text
-                    @click="dialog = false"
+                    @click="ferme()"
                 >
                     Fermer
                 </v-btn>
@@ -99,7 +133,7 @@
             </v-card>
             </v-dialog>
         </v-row>
-        </template>
+        </template>-->
     </v-col>
     </v-row>
     <v-row class="mt-10">
@@ -125,6 +159,7 @@ export default {
    data () {
       return {
         email:'',
+        type:'',
         nom:'',
         prenom:'',
         city:'',
@@ -398,6 +433,7 @@ export default {
                         name:this.nom+' '+this.prenom,
                         city:this.city,
                         country:this.select.name,
+                        type:this.type,
                     }
                     }).then(()=>{
                         this.confirmed = true
@@ -411,7 +447,21 @@ export default {
             this.nom = '' , 
             this.prenom = '' , 
             this.city = '' , 
+            this.type = '',
             this.select = { name: 'Morocco', code: 'MA' } 
+      },
+
+      ferme(){
+          this.dialog = false
+          this.email = '',
+            this.nom = '' , 
+            this.prenom = '' , 
+            this.city = '' , 
+            this.type = '',
+            this.select = { name: 'Morocco', code: 'MA' } 
+      },
+      selectType(type){
+          this.type = type
       }
     },
   }

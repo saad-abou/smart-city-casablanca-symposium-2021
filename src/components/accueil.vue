@@ -1,6 +1,6 @@
 <template>
   <div class="view" >
-        <v-img class="back"  src="..\assets\head2.jpg" aspect-ratio="1.7" max-height="626">
+        <v-img class="back"  src="..\assets\head.jpg" aspect-ratio="1.7" max-height="626">
          <v-row align="center">
           <v-col class="digit" align="center">
           <v-card class="agenda" color="rgb(181,83,127,0.4)">
